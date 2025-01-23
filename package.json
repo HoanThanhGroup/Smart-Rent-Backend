@@ -1,0 +1,29 @@
+{
+  "name": "smart-rent-backend",
+  "version": "1.0.0",
+  "description": "houses the backend of smartrent web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoanThanhGroup/Smart-Rent-Backend.git"
+  },
+  "author": "Thanh Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoanThanhGroup/Smart-Rent-Backend/issues"
+  },
+  "homepage": "https://github.com/HoanThanhGroup/Smart-Rent-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
